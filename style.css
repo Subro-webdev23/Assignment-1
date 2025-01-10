@@ -12,7 +12,7 @@
   font-variation-settings:
     "wdth" 100;
 }
-/* Global Font stat */
+/* Global Font start */
 h1{
     font-size: 56px;
     font-weight: bold;
@@ -47,11 +47,11 @@ p{
     font-weight: normal;
     color: #0e0e0e;
     opacity: 70%;
-    line-height: 24;
+    /* line-height: 24;  if i use line height 24 its gives too much gaps in the line . That's why i comment it!*/
 }
 /* Global Font end */
 
-/* Global Color Stat */
+/* Global Color Start */
 body{
     background-color: #f5f5f5;
 }
@@ -73,8 +73,8 @@ body{
 .yellow2-color{
     background-color: #F7EbCF;
 }
-.white-color{
-    color: #ffffff;
+.bg-white-color{
+    background-color: #ffffff;
 }
 /* Global Color End */
 
@@ -107,6 +107,7 @@ nav{
     color: #f5f5f5;
     background-color: #006A50;
     transition: 500ms;
+    cursor: pointer;
 }
 /* Header End */
 
@@ -138,7 +139,94 @@ nav{
     font-weight: 500;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
+/* Banner  End*/
+
+/* The Vision of Future section start */
+.secondary-button{
+    padding: 15px 30px;    
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 150px;    
+}
+/* vision-section */
+.vision-section{
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.vision-contant{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.cards{
+    display: flex;
+    flex-wrap: row;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card1, .card2, .card3 {
+    width: 410.67px;
+    height: 325px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    gap: auto;
+    border-radius: 16px;
+}
+.card1 img, .card2 img, .card3 img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;   
+}
+.card-contant{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+/* review  */
+
+.review{
+    padding: 48px 24px;
+    background-image: url(images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 2% 20%;
+    border-radius: 16px;
+}
+.review p{
+    margin-bottom: 12px;
+}
+
+strong{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
