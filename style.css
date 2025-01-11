@@ -309,9 +309,7 @@ strong{
     background-color: #c6e4d6;
     transition: 500ms;
 }
-#activeButton{
-    background-color: #c6e4d6!important;
-}
+
 .donate-section input{
     width: 790px;
     padding: 20px 40px;
