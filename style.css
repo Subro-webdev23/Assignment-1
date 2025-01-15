@@ -381,10 +381,10 @@ strong{
     display: none;
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 576px) {
     .container{
         width: 100%; /* Use a percentage to make it responsive */
-        max-width: 764px; /* Optional: Limit the maximum width */
+        max-width: 576px; /* Optional: Limit the maximum width */
         margin: 0 auto;
     }
     nav{
