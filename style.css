@@ -386,10 +386,7 @@ strong{
         width: 100%; /* Use a percentage to make it responsive */
         max-width: 576px; /* Optional: Limit the maximum width */
         margin: 0 auto;
-    }
-    nav{
-        padding: 5px 10px;
-    }
+    }    
     .banner{
         flex-direction: column-reverse;
     }
