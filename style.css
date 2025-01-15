@@ -16,36 +16,36 @@
 }
 /* Global Font start */
 h1{
-    font-size: 56px;
+    font-size: 3.5em;
     font-weight: bold;
     color: #0E0E0E;
 }
 h2{
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: bold;
     color: #0e0e0e;
     
 }
 h3{
-    font-size: 32px;
+    font-size: 2em;
     font-weight: bold;
     color: #0e0e0e;
     opacity: 80%;
 }
 h4{
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 500;
     color: #0e0e0e;
     opacity: 50%;
 }
 h5{
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
     color: #0e0e0e;
     opacity: 80%;
 }
 p{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: normal;
     color: #0e0e0e;
     opacity: 70%;
@@ -96,7 +96,7 @@ nav{
 }
 
 .nav-button{
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 500;
     color: #006A50;    
     padding: 15px 30px;
@@ -137,7 +137,7 @@ nav{
     padding: 15px 30px;
     background-color: #006A50;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 600;
     border: none;
     border-radius: 8px;
@@ -354,7 +354,7 @@ strong{
 #inputForm #email{
     width: 600px;
     padding: 18px 40px;
-    font-size: 16px;
+    font-size: 1em;
     border-radius: 16px 0 0 16px;
     border: none;
     outline: none;
@@ -365,20 +365,34 @@ strong{
     border: none;
     outline: none;
     background-color: #006A50;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
 }
 
 .subscribe-section small{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: normal;
     color: rgba(14, 14, 14, 70);
     opacity: 70%;
 }
+.hide{
+    display: none;
+}
 
-
-
+@media screen and (max-width: 764px) {
+    .container{
+        width: 100%; /* Use a percentage to make it responsive */
+        max-width: 764px; /* Optional: Limit the maximum width */
+        margin: 0 auto;
+    }
+    nav{
+        padding: 5px 10px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+}
 
 
